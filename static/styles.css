@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+/* Контейнер для калькулятора */
+.calculator {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    color: white;
+}
+
+/* Экран калькулятора */
+.screen {
+    background-color: #222;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 24px;
+    text-align: right;
+    margin-bottom: 20px;
+    color: white;
+    height: 50px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+button {
+    background-color: #444;
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/*для цифровых кнопок */
+button.digit {
+    background-color: #555;
+}
+
+button.digit:hover {
+    background-color: #666;
+}
+
+/* для операторов */
+button.operation {
+    background-color: #888;
+}
+
+button.operation:hover {
+    background-color: #999;
+}
+
+/* для скобок */
+button.bracket {
+    background-color: #666;
+}
+
+button.bracket:hover {
+    background-color: #777;
+}
+
+/* Кнопка для очистки экрана */
+button.clear {
+    background-color: #f00;
+}
+
+button.clear:hover {
+    background-color: #d00;
+}
+
+button.result {
+    background-color: #00f;
+}
+
+button.result:hover {
+    background-color: #00d;
+}
